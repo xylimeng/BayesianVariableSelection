@@ -1,2 +1,2 @@
-# BayesianVariableSelection-
+# BayesianVariableSelection
 Scalable Bayesian variable selection 
