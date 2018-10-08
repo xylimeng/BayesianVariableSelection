@@ -1,6 +1,9 @@
 # dlbayes
 
-The goal of dlbayes is to implement the Dirichlet Laplace shrinkage prior in Bayesian linear regression. First, the package can give you a visual image of the prior. Second, we use MCMC sampling to do Bayesian linear regression and make the algorithm hold scalable data. Third, we use credible interval to do variable selection.
+The goal of dlbayes is to implement the Dirichlet Laplace shrinkage prior in Bayesian linear regression and variable selection, featuring: 
+- utility functions in implementing Dirichlet-Lapace priors such as visualization; 
+- scalability in Bayesian linear regression; 
+- penalized credible regions for variable selection. 
 
 ## Installation
 
@@ -14,16 +17,17 @@ install.packages("dlbayes")
 This is a basic example which shows you how to solve a common problem:
 
 ``` r
-## basic example code
-```
+## example
   rho=0.5
   p=1000
   n=100
   #set up correlation matrix
   m<-matrix(NA,p,p)
   for(i in 1:p){
-    for(j in i:p)
-      m[i,j]=rho^(j-i)}
+    for(j in i:p){
+      m[i,j]=rho^(j-i)
+    }
+  }
   m[lower.tri(m)]<-t(m)[lower.tri(m)]
   #generate x
   library("mvtnorm")
@@ -41,5 +45,9 @@ This is a basic example which shows you how to solve a common problem:
   da$LeftCI
   da$RightCI
   theta=dlprior(hyper=1/2,p=10000000,plt=TRUE,min=-5,max=5,sigma=1)
+```
+
+## Reference 
+
 
 
