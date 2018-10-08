@@ -1,6 +1,6 @@
 # dlbayes
 
-The goal of dlbayes is to implement the Dirichlet Laplace shrinkage prior in Bayesian linear regression. First, the package can give you a visual image of the prior. Second, we use MCMC sampling to do Bayesian linear regression and more the algorithm to scalable data. Third, we use credible interval to do variable selection.
+The goal of dlbayes is to implement the Dirichlet Laplace shrinkage prior in Bayesian linear regression. First, the package can give you a visual image of the prior. Second, we use MCMC sampling to do Bayesian linear regression and make the algorithm hold scalable data. Third, we use credible interval to do variable selection.
 
 ## Installation
 
