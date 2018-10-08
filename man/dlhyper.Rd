@@ -2,7 +2,7 @@
 \alias{dlhyper}
 \title{Function to tune the hyperparameter in the prior distribtuion}
 \usage{
-dlhyper<-function(x,y)
+dlhyper(x,y)
 }
 
 \arguments{
@@ -18,6 +18,7 @@ dlhyper<-function(x,y)
 
 \description{This function is to tune the value of hyperparameter in the prior, which can be [1/max(n,p),1/2]. We use the method proposed by Zhang et al. (2018). This method tune the hyperparameter by incorporating a prior on R^2. And they give a direct way to minimize KL directed divergence for special condition.}
 \examples{
+\dontrun{
   rho=0.5
   p=1000
   n=100
@@ -34,5 +35,5 @@ dlhyper<-function(x,y)
   beta=c(rep(0,10),runif(n=5,min=-1,max=1),rep(0,20),runif(n=5,min=-1,max=1),rep(0,p-40))
   #generate y
   y=x\%*\%beta+rnorm(n)
-  hyper=dlhyper(x,y)
+  hyper=dlhyper(x,y)}
 }

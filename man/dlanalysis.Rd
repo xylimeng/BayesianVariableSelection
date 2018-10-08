@@ -22,6 +22,7 @@ dlanalysis(dlresult,alpha=0.05)
 \description{This is a function that analyse the MCMC sampling result by computing the posterior mean, median and credible intervals.}
 
 \examples{
+\dontrun{
   rho=0.5
   p=1000
   n=100
@@ -44,5 +45,5 @@ dlanalysis(dlresult,alpha=0.05)
   da$betamean
   da$betamedian
   da$LeftCI
-  da$RightCI
+  da$RightCI}
 }

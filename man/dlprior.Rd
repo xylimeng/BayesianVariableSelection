@@ -8,6 +8,7 @@ dlprior(hyper=1/2,p=10000000,plt=TRUE,min=-5,max=5,sigma=1)
 \arguments{
 
 \item{hyper}{important hyperparameter that related to posterior shrinkage scales and prior distribution.}
+\item{p}{number of observations}
 \item{plt}{whether to plot the dirichlet laplace prior. default TRUE means plot the distribution.}
 \item{min}{left point of the plot graph.}
 \item{max}{right point of the plot graph.}
@@ -22,5 +23,6 @@ dlprior(hyper=1/2,p=10000000,plt=TRUE,min=-5,max=5,sigma=1)
 This function generates random deviates from dirichlet laplace shrinkage prior and can plot the distribution function.
 }
 \examples{
-theta=dlprior(hyper=1/2,p=10000000,plt=TRUE,min=-5,max=5,sigma=1)
+\dontrun{
+theta=dlprior(hyper=1/2,p=10000000,plt=TRUE,min=-5,max=5,sigma=1)}
 }

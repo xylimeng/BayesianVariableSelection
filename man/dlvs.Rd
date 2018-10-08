@@ -19,6 +19,7 @@ dlvs(dlresult)
 This is a function using the algorithm doing variable selection via penalized credible interval proposed by Bondell et al. (2012). The computation of the proposed sequence is doing matrix computing and using existing LASSO software.
 }
 \examples{
+\dontrun{
  rho=0.5
   p=1000
   n=100
@@ -37,5 +38,5 @@ This is a function using the algorithm doing variable selection via penalized cr
   y=x\%*\%beta+rnorm(n)
   hyper=dlhyper(x,y)
   dlresult=dl(x,y,hyper=hyper)
-  dlvs(dlresult)
+  dlvs(dlresult)}
 }
