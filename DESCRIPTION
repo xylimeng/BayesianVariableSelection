@@ -9,3 +9,12 @@ Description: More about what it does (maybe more than one line)
 License: GPL
 Encoding: UTF-8
 LazyData: true
+Imports: 
+    GIGrvg,
+    expm,
+    glmnet,
+    MASS,
+    LaplacesDemon,
+    stats,
+    graphics
+RoxygenNote: 6.1.0
