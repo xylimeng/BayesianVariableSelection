@@ -15,8 +15,7 @@ install.packages("dlbayes")
 
 ## Example
 
-``` r
-## example
+``` 
   rho=0.5
   p=1000
   n=100
@@ -39,9 +38,8 @@ install.packages("dlbayes")
   hyper=dlhyper(x,y)
   #MCMC sampling
   dlresult=dl(x,y,hyper=hyper)
-  #using sampling result to do variable selection
-  betaresult=dlvs(dlresult)
-  #basic statistical analysis of sampling result
+  
+  # Summary of posterior samples 
   da=dlanalysis(dlresult,alpha=0.05)
   da$betamean
   da$betamedian
@@ -49,6 +47,9 @@ install.packages("dlbayes")
   da$RightCI
   #Dirichlet-Lapace priors visualization and random number generation 
   theta=dlprior(hyper=1/2,p=10000000,plt=TRUE,min=-5,max=5,sigma=1)
+  
+  # Variable selection
+  betaresult=dlvs(dlresult)
 ```
 
 ## Reference 
