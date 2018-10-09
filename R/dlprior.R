@@ -1,7 +1,3 @@
-
-
-
-
 dlprior<-function(hyper=1/2,p=10000000,plt=TRUE,min=-5,max=5,sigma=1){
   #dirichlet-laplace
   #prior for beta: beta[j] ~ N(0, sigma^2*psi[j]*phi[j]^2*tau^2)
