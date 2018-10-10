@@ -57,7 +57,7 @@ install.packages("dlbayes")
 
 ## Reference 
 
-Bhattacharya, A., Pati, D., Pillai, N. S., and Dunson, D. B. (2015). "Dirichlet–Laplace priors for optimal shrinkage." *_Journal of the     American Statistical Association*_.
+Bhattacharya, A., Pati, D., Pillai, N. S., and Dunson, D. B. (2015). "Dirichlet–Laplace priors for optimal shrinkage." *Journal of the     American Statistical Association*.
 [COMMENT: add ISSUE and Page Number of each journal (open a published paper to check the reference style.]
 
 Bhattacharya, A., Chakraborty, A., and Mallick, B. K. (2015). "Fast sampling with Gaussian scale-mixture priors in high-dimensional       regression."   
