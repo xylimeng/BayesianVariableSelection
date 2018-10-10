@@ -39,8 +39,8 @@ install.packages("dlbayes")
   # MCMC sampling
   dlresult=dl(x,y,hyper=hyper)
   
-  ## visualization of Dirichlet-Lapace priors
-  ## Set "plt=TRUE" to make plots 
+  # visualization of Dirichlet-Lapace priors
+  # set "plt=TRUE" to make plots 
   # theta=dlprior(hyper=1/2,p=10000000,plt=TRUE,min=-5,max=5,sigma=1)
   
   # summary of posterior samples 
@@ -60,7 +60,7 @@ install.packages("dlbayes")
 
 ## Reference 
 
-Bhattacharya, A., Pati, D., Pillai, N. S., and Dunson, D. B. (2015). "Dirichlet–Laplace priors for optimal shrinkage." *Journal of the &ensp;&ensp;American Statistical Association*, 110(512): 1479–1490. 
+Bhattacharya, A., Pati, D., Pillai, N. S., and Dunson, D. B. (2015). "Dirichlet–Laplace priors for optimal shrinkage." *Journal of the American Statistical Association*, 110(512): 1479–1490. 
 
 Bhattacharya, A., Chakraborty, A., and Mallick, B. K. (2016). "Fast sampling with Gaussian scale-mixture priors in high-dimensional regression." *Biomoetrika*, 103(4): 985–991. 
 
