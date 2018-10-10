@@ -67,5 +67,5 @@ Bhattacharya, A., Pati, D., Pillai, N. S., and Dunson, D. B. (2015). "Dirichlet�
 
 Bhattacharya, A., Chakraborty, A., and Mallick, B. K. (2015). "Fast sampling with Gaussian scale-mixture priors in high-dimensional      regression." *Biomoetrika*, 103(4): 985–991. 
 
-Bondell, H. D. and Reich, B. J. (2012). "Consistent high-dimensional Bayesian variable selection via penalized credible regions."   *Journal of the American Statistical Association*, 110(512): 1479–1490.
+Bondell, H. D. and Reich, B. J. (2012). "Consistent high-dimensional Bayesian variable selection via penalized credible regions."   *Journal of the American Statistical Association*, 107(500): 1610–1624. 
 
