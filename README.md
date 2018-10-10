@@ -57,11 +57,10 @@ install.packages("dlbayes")
 
 ## Reference 
 
-Bhattacharya, A., Pati, D., Pillai, N. S., and Dunson, D. B. (2015). "Dirichlet–Laplace priors for optimal shrinkage." *Journal of the     American Statistical Association*.
+Bhattacharya, A., Pati, D., Pillai, N. S., and Dunson, D. B. (2015). "Dirichlet–Laplace priors for optimal shrinkage." *Journal of the     American Statistical Association*, 110(512): 1479–1490. 
 [COMMENT: add ISSUE and Page Number of each journal (open a published paper to check the reference style.]
 
-Bhattacharya, A., Chakraborty, A., and Mallick, B. K. (2015). "Fast sampling with Gaussian scale-mixture priors in high-dimensional       regression."   
-[COMMENT: this paper has been published by Biometrika: _Biometrika_,103(4):985–991.]
+Bhattacharya, A., Chakraborty, A., and Mallick, B. K. (2015). "Fast sampling with Gaussian scale-mixture priors in high-dimensional      regression." *Biomoetrika*, 103(4): 985–991. 
 
-Bondell, H. D. and Reich, B. J. (2012). "Consistent high-dimensional Bayesian variable selection via penalized credible regions."         Journal of the American Statistical Association
+Bondell, H. D. and Reich, B. J. (2012). "Consistent high-dimensional Bayesian variable selection via penalized credible regions."   *Journal of the American Statistical Association*, 110(512): 1479–1490.
 
