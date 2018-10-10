@@ -19,7 +19,7 @@ install.packages("dlbayes")
   rho=0.5
   p=1000
   n=100
-  #set up correlation matrix
+  # set up correlation matrix
   m<-matrix(NA,p,p)
   for(i in 1:p){
     for(j in i:p){
@@ -27,19 +27,19 @@ install.packages("dlbayes")
     }
   }
   m[lower.tri(m)]<-t(m)[lower.tri(m)]
-  #generate x
+  # generate x
   library("mvtnorm")
   x=rmvnorm(n,mean=rep(0,p),sigma=m)
-  #generate beta
+  # generate beta
   beta=c(rep(0,10),runif(n=5,min=-1,max=1),rep(0,20),runif(n=5,min=-1,max=1),rep(0,p-40))
-  #generate y
+  # generate y
   y=x%*%beta+rnorm(n)
   #tuning hyperparameter [1/max(n,p),1/2]
   hyper=dlhyper(x,y)
   #MCMC sampling
   dlresult=dl(x,y,hyper=hyper)
   
-  # Summary of posterior samples 
+  # summary of posterior samples 
   da=dlanalysis(dlresult,alpha=0.05)
   da$betamean
   da$betamedian
@@ -50,11 +50,11 @@ install.packages("dlbayes")
   [COMMENT: theta seems not used elsewhere. There is also no visualization: either add visualization (for theta, I think?) or remove 'theta'. Answer: Actually, the visualization means the the distribution graph of the DL prior. The "plt=TRUE" means graph making."theta " is the vector that have several radom number generated from the prior. But it's not used in other problem. Of course we can remove it if it's not useful.] 
   theta=dlprior(hyper=1/2,p=10000000,plt=TRUE,min=-5,max=5,sigma=1)
   
-  # Variable selection
+  # variable selection
   betaresult=dlvs(dlresult)
-  # Ordinal number of variables selected
+  # ordinal number of variables selected
   num=which(betaresult!=0)
-  # The coefficients of variable selected
+  # coefficients of variable selected
   coef=betaresult[num]
   
   [COMMENT: add code to extract selected variables from 'betaresult'. Answer: Add the ordinal number and coefficients to the variable selection] 
