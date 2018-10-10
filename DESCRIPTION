@@ -4,9 +4,12 @@ Title: use Dirichlet Laplace prior to solve linear regression problem and do var
 Version: 0.1.0
 Author: Shijia Zhang; Meng Li
 Maintainer: Shijia Zhang <zsj27@mail.ustc.edu.cn>
-Description:The goal of dlbayes is to implement the Dirichlet Laplace shrinkage prior in Bayesian linear regression and variable selection, featuring:
-utility functions in implementing Dirichlet-Lapace priors such as visualization; scalability in Bayesian linear regression; penalized credible regions for variable selection.
-License: MIT
+Description: The goal of dlbayes is to implement the Dirichlet Laplace shrinkage prior in
+    Bayesian linear regression and variable selection, featuring:
+    utility functions in implementing Dirichlet-Lapace priors such as visualization; 
+    scalability in Bayesian linear regression; 
+    penalized credible regions for variable selection.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports: 

@@ -57,7 +57,6 @@ install.packages("dlbayes")
   # coefficients of selected variable
   coef=betaresult[num]
 ```
-
 ## Reference 
 
 Bhattacharya, A., Pati, D., Pillai, N. S., and Dunson, D. B. (2015). "Dirichlet–Laplace priors for optimal shrinkage." *Journal of the American Statistical Association*, 110(512): 1479–1490. 
