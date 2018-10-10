@@ -1,7 +1,7 @@
 # dlbayes
 
 The goal of dlbayes is to implement the Dirichlet Laplace shrinkage prior in Bayesian linear regression and variable selection, featuring: 
-- utility functions in implementing Dirichlet-Lapace priors such as visualization and random variable generation; [COMMENT: where is 'random variable generation' used in implementating or visualizating DP priors?]
+- utility functions in implementing Dirichlet-Lapace priors such as visualization and random variable generation; [COMMENT: where is 'random variable generation' used in implementating or visualizating DP priors? Answer: ]
 - scalability in Bayesian linear regression; 
 - penalized credible regions for variable selection. 
 
@@ -57,8 +57,8 @@ install.packages("dlbayes")
 
 ## Reference 
 
-Bhattacharya, A., Pati, D., Pillai, N. S., and Dunson, D. B. (2015). "Dirichlet–Laplace priors for optimal shrinkage." *Journal of the &emsp American Statistical Association*, 110(512): 1479–1490. 
-[COMMENT: add ISSUE and Page Number of each journal (open a published paper to check the reference style.]
+Bhattacharya, A., Pati, D., Pillai, N. S., and Dunson, D. B. (2015). "Dirichlet–Laplace priors for optimal shrinkage." *Journal of the &ensp;&ensp;American Statistical Association*, 110(512): 1479–1490. 
+[COMMENT: add ISSUE and Page Number of each journal (open a published paper to check the reference style. Answer: I changed reference but I am not sure ]
 
 Bhattacharya, A., Chakraborty, A., and Mallick, B. K. (2015). "Fast sampling with Gaussian scale-mixture priors in high-dimensional      regression." *Biomoetrika*, 103(4): 985–991. 
 
