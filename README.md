@@ -1,7 +1,7 @@
 # dlbayes
 
 The goal of dlbayes is to implement the Dirichlet-Laplace shrinkage prior in Bayesian linear regression and variable selection, featuring: 
-- utility functions to implement Dirichlet-Lapace priors; 
+- utility functions to implement Dirichlet-Laplace priors; 
 - scalability in Bayesian linear regression; 
 - variable selection based on penalized credible regions. 
 
